@@ -1,0 +1,13 @@
+-----------------
+----- TODO --------
+---------------
+- start script is not portable.
+- mouse translate from screen to scene does not
+compensate for scaling. implement this.
+- finish error checking in scene map load from file
+
+-------------
+BUGS
+----------------
+- z order of layer cannot be updated, layer's group does not function after this.
+

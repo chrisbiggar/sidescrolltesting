@@ -1,0 +1,7 @@
+EDITOR_ARG="editor"
+
+if [ "$1" == "$EDITOR_ARG" ]; then
+	python2 main.py --editor --debug --showfps
+else
+	python2 main.py --debug --showfps
+fi

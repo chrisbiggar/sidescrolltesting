@@ -1,0 +1,4 @@
+#!/bin/bash
+(gedit ./appEngine/actor.py ./appEngine/entity.py ./appEngine/scene.py ./appEngine/director.py ./game/star.py ./game/game.py) &
+nautilus ~/workspace
+echo "started project."
